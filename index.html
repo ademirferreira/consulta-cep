@@ -1,0 +1,46 @@
+<html>
+    <head>
+      <title>Consulta CEP2</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="/css/style.css">      
+      <script src="/js/app.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="wrap-form">
+              
+              <form class="search-form">
+                <span class="form-title">
+                  Consulta CEP
+                </span>
+        
+                <div class="wrap-input" data-validate="CEP é obrigatório">
+                  <span class="label-input">CEP</span>
+                  <input class="input" type="text" name="cep" id="cep" onblur="pesquisacep(this.value);">                  
+                </div>
+        
+                <div class="wrap-input">
+                  <span class="label-input">Rua:</span>
+                  <input class="input" type="text" name="rua" id="rua" disabled>                  
+                </div>
+
+                <div class="wrap-input">
+                    <span class="label-input">Bairro:</span>
+                    <input class="input" type="text" name="bairro" id="bairro" disabled>                    
+                </div>
+
+                <div class="wrap-input">
+                    <span class="label-input">Cidade:</span>
+                    <input class="input" type="text" name="cidade" id="cidade" disabled>                    
+                </div>
+                
+                <div class="wrap-input">
+                    <span class="label-input">Estado:</span>
+                    <input class="input" type="text" name="uf" id="uf" disabled>                    
+                </div>
+                
+          </div>          
+      </div>      
+    </body>
+</html>
